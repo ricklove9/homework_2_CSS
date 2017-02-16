@@ -1,0 +1,45 @@
+body{
+    background-image: url("Wood_background.png");
+    
+}
+h1 {
+   font-weight: bolder;
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6{
+  font-family: cursive;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+p:first-of-type
+{
+    color: #B22222;
+}
+
+table, th, td, tr
+{
+    border-style: solid;
+    border-color: #5555555;
+    border-collapse: collapse;
+}
+
+tr:nth-child(n){
+    background-color: #F0F8FF;
+}
+tr:nth-child(2n+1){
+    background-color:#DC143C;
+}
+
+tr:hover{
+    background-color: #5F9EA0;
+}
+
+a:visited{
+    font-size:50px;
+    color: #2f4F4F;
+}
